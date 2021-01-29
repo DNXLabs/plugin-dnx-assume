@@ -11,6 +11,8 @@ This is a one-cli plugin that adds extra assume role entry command to the CLI.
 
 ```yaml
 # one.yaml
+required_version: ">= 0.7.0"
+
 plugins:
 - package: one-cli-plugin-dnx-assume==0.1.1
   module: 'plugin_dnx_assume'
