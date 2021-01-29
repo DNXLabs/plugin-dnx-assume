@@ -12,13 +12,11 @@ This is a one-cli plugin that adds extra assume role entry command to the CLI.
 ```yaml
 # one.yaml
 plugins:
-  dnx-assume:
-    package: one-cli-plugin-dnx-assume
-    version: 0.1.0
-    module: 'plugin_dnx_assume'
-    parameters:
-      aws_role: <redact>
-      aws_account_id: <redact>
+- package: one-cli-plugin-dnx-assume==0.1.0
+  module: 'plugin_dnx_assume'
+  parameters:
+    aws_role: <redact>
+    aws_account_id: <redact>
 ```
 
 ## Usage
